@@ -68,6 +68,14 @@ ul {
     text-align: center;
     border-radius: 0.5rem;
     width: 30%;
+    justify-content: space-between;
+    transition: .3s;
+}
+
+#doplay:hover,
+#dostop:hover,
+#dopause:hover {
+    opacity: 0.6;
 }
 
 i {
@@ -102,6 +110,12 @@ i {
     display: flex;
     align-items: center;
     font-size: 1.2rem;
+    transition: 0.3s;
+}
+
+#do10sPrev:hover,
+#do10sNext:hover {
+    opacity: 0.5;
 }
 
 #mute {
@@ -111,6 +125,12 @@ i {
     border: #fff solid 2px;
     /* background-color: #434343; */
     width: 100%;
+    transition: .3s;
+}
+
+#mute:hover {
+    background-color: #fff;
+    color: #222;
 }
 
 .center {
