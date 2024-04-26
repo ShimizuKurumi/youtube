@@ -261,6 +261,15 @@ input[type="radio"] {
     font-size: 1.5rem;
 }
 
+.bg_text {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    font-size: 9rem;
+    color: #333;
+    line-height: 1;
+}
+
 @media screen and (max-width: 1024px) {
 
     /* 768pxまでの幅の場合に適用される */
